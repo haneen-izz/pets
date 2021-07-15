@@ -2,9 +2,11 @@ var name =prompt("what is your name?")
 
 alert(" Thinking about getting a cat but not sure which breed is right for you? so welcome to our website we can help you! " +name)
 
+var cat = prompt("do you like cats?")
+alert("welcome to my website")
+
 var chooseCat = prompt("which cat do you want to know about?")
 console.log(chooseCat)
-
 
 
 if(chooseCat == "Abyssinian Cat"){
@@ -35,5 +37,7 @@ document.write("With unique ears that curl back, and an inquisitive expression r
 else{
   alert('we dont have any info for this cat')
 }
+
+
 
 
