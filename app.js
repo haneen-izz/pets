@@ -17,6 +17,7 @@ alert("thanks")
 }
 function userChooseCat (){
 
+]
 while(chooseCat != "Abyssinian Cat" && chooseCat != "American Shorthair Cat" && chooseCat != "American Curl Cat Breed" ){
 
 chooseCat = prompt("which cat do you want to know about please choose one of these; Abyssinian Cat , American Shorthair Cat , American Curl Cat Breed ?")
@@ -61,6 +62,7 @@ else{
 }
  userChooseCat ();
  stars();
+
 
 
 
