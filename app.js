@@ -6,9 +6,11 @@ var cat = prompt("do you like cats?")
 alert("welcome to my website")
 
 var chooseCat = prompt("which cat do you want to know about please choose one of these; Abyssinian Cat , American Shorthair Cat , American Curl Cat Breed ?")
+
 while(chooseCat != "Abyssinian Cat" && chooseCat != "American Shorthair Cat" && chooseCat != "American Curl Cat Breed" ){
 
 chooseCat = prompt("which cat do you want to know about please choose one of these; Abyssinian Cat , American Shorthair Cat , American Curl Cat Breed ?")
+
 }
 
 var numberOfpic = prompt("how many times you want to see this picture?")
@@ -29,7 +31,7 @@ document.write("byssinians are highly intelligent and intensely inquisitive. The
  
 else if(chooseCat == "American Shorthair Cat"){
   for(var i = 0; i < numberOfpic  ; i++)
-{document.write( "<div>" + "<h3>" + chooseCat+"</h3>"+ "<img src='https://www.purina.com/sites/g/files/auxxlc196/files/styles/kraken_generic_max_width_360/public/AmericanShorthair_body_6.jpg?itok=9qu8WJOJ' width='300' height='300'     />" + "</div>")
+{document.write( "<div>" + "<h3>" + chooseCat+"</h3>"+ "<img src='https://www.purina.com/sites/g/files/auxxlc196/files/styles/kraken_generic_max_width_360/public/AmericanShorthair_body_6.jpg?itok=9qu8WJOJ' width='300' height='300' />" + "</div>")
 
 document.write("Formerly used to keep rodents and vermin away from food stores, the American Shorthair still enjoys exercising her hunting skills on unsuspecting insects. As a smart, moderately active feline, she enjoys learning tricks and challenging her intelligence with puzzles and interactive toys.")}
 
@@ -37,7 +39,7 @@ document.write("Formerly used to keep rodents and vermin away from food stores, 
 
 else if(chooseCat == "American Curl Cat Breed"){
   for(var i = 0; i < numberOfpic  ; i++)
-{document.write( "<div>" + "<h3>" + chooseCat+"</h3>"+ "<img src='https://www.purina.com/sites/g/files/auxxlc196/files/styles/kraken_generic_max_width_360/public/AmericanShorthair_body_6.jpg?itok=9qu8WJOJ' width='300' height='300'     />" + "</div>")
+{document.write( "<div>" + "<h3>" + chooseCat+"</h3>"+ "<img src='https://www.purina.com/sites/g/files/auxxlc196/files/styles/kraken_generic_max_width_360/public/AmericanCurlSHA_body_6.jpg?itok=7zxsXPUy' width='300' height='300'     />" + "</div>")
 document.write("With unique ears that curl back, and an inquisitive expression reminiscent of happy surprise, the American Curl brings a smile to everyone who meets her.")}
 
 
@@ -46,6 +48,7 @@ document.write("With unique ears that curl back, and an inquisitive expression r
 else{
   alert('we dont have any info for this cat')
 }
+
 
 
 
